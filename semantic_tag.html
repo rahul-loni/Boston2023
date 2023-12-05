@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tag</title>
+    <style>
+        /* Css */
+
+article{
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+.main_div{
+    border: 5px outset red;
+    background-color: #45a1ff;
+    text-align: center;
+   
+    
+}  
+.main_text{
+    font-size:30px;
+    font-weight:bold;
+    color: aqua;
+}      
+.second_text{
+    font-size:20px;
+    font-weight: bold;
+    color: blue;
+}
+.main_img{
+    height: 80px;
+    width: 80px;
+}
+.main_video{
+height: 200px;
+width: 200px;
+}
+    </style>
+</head>
+<body>
+  <div class="main_div">
+     <h1 class="main_text">Welcome to my Class</h1>
+     <p class="second_text">this is Rahul Kumar </p>
+    <img class="main_img" src="images/pic.png" alt="">
+    <video  class="main_video"
+      src="images/video.mp4" controls>
+  </video>
+  </div> 
+</body>
+</html>
